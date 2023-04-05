@@ -13,8 +13,9 @@ module.exports = {
         "250px": "15.625rem"
       },
       colors: {
-        solarYellow1: "#FFCC39",
-        solarBgHover: "#F7A811"
+        solarYellow: "#FFCD38",
+        solarOrange1: "#F7A609",
+        solarOrange2: "#EF7D05",
       }
     },
   },
