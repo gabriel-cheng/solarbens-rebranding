@@ -7,9 +7,15 @@
         @apply text-white w-44 flex justify-center items-center h-80px ease-in-out duration-300 font-semibold text-xl;
     }
     .navigation:hover {
-        @apply bg-solarYellow ease-in-out duration-300;
+        @apply bg-solarOrange1 ease-in-out duration-300;
     }
     .list-container > :not(:last-child) {
         @apply mr-3;
+    }
+    .button {
+       @apply bg-solarOrange1 w-40 h-10 rounded-full font-semibold
+    }
+    .button:hover {
+        @apply bg-solarYellow duration-300;
     }
 }
