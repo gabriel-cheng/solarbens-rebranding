@@ -24,7 +24,7 @@
         </nav>
         <div class="">
             <a href="" class="">
-                <button class="bg-solarOrange1 w-40 h-8 rounded-full font-semibold hover:bg-solarYellow duration-300">Simule grátis</button>
+                <button class=" button">Simule grátis</button>
             </a>
         </div>
     </header>
