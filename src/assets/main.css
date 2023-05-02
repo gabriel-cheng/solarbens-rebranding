@@ -1,10 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body {
+    font-family: poppins;
+    background-color: black;
+    color: white; 
+}
+
 @layer components {
     .navigation {
-        @apply text-white w-44 flex justify-center items-center h-80px ease-in-out duration-300 font-semibold text-xl;
+        @apply text-white text-base w-40 flex justify-center items-center h-80px ease-in-out duration-300 font-semibold;
     }
     .navigation:hover {
         @apply bg-solarOrange1 ease-in-out duration-300;
@@ -12,10 +19,10 @@
     .list-container > :not(:last-child) {
         @apply mr-3;
     }
-    .button {
-       @apply bg-solarOrange1 w-40 h-10 rounded-full font-semibold
+    .button { 
+       @apply bg-solarYellow w-40 h-10 rounded-full font-semibold
     }
     .button:hover {
-        @apply bg-solarYellow duration-300;
+        @apply bg-solarOrange1 duration-300
     }
 }

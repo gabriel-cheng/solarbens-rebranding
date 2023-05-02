@@ -16,6 +16,9 @@ module.exports = {
         solarYellow: "#FFCD38",
         solarOrange1: "#F7A609",
         solarOrange2: "#EF7D05",
+      },
+      fontFamily: {  
+        poppins: ['Poppins', 'sans-serif']
       }
     },
   },
